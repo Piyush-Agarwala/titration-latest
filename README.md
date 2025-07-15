@@ -28,7 +28,7 @@ Visit the live application: [Chemistry Lab Simulator](https://Piyush.github.io/c
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/chem-lab-simulator.git
+git clone https://github.com/Piyush/chem-lab-simulator.git
 cd chem-lab-simulator
 ```
 
