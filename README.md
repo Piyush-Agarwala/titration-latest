@@ -12,7 +12,7 @@ An interactive virtual chemistry laboratory for educational purposes. This web a
 
 ## 🚀 Live Demo
 
-Visit the live application: [Chemistry Lab Simulator](https://username.github.io/chem-lab-simulator)
+Visit the live application: [Chemistry Lab Simulator](https://Piyush.github.io/chem-lab-simulator)
 
 ## 🛠️ Technologies Used
 
@@ -28,7 +28,7 @@ Visit the live application: [Chemistry Lab Simulator](https://username.github.io
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/username/chem-lab-simulator.git
+git clone https://github.com/Piyush/chem-lab-simulator.git
 cd chem-lab-simulator
 ```
 
@@ -82,11 +82,32 @@ To build the full application (client + server):
 npm run build
 ```
 
+## 🌐 GitHub Pages Deployment
+
+To deploy to GitHub Pages:
+
+```bash
+npm run build:pages
+```
+
+This builds the client app and copies files to the `docs/` folder with proper relative paths for GitHub Pages.
+
+**Setup GitHub Pages:**
+
+1. Push your code to GitHub
+2. Go to repository Settings > Pages
+3. Set source to "Deploy from a branch"
+4. Select "main" branch and "/docs" folder
+5. Save and your app will be live at `https://Piyush.github.io/chem-lab-simulator`
+
+See [GITHUB_DEPLOYMENT.md](GITHUB_DEPLOYMENT.md) for detailed instructions.
+
 ## 📚 Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build full application
 - `npm run build:client` - Build client only
+- `npm run build:pages` - Build for GitHub Pages deployment
 - `npm run preview` - Preview production build
 - `npm run start` - Start production server
 - `npm run check` - Run TypeScript check
