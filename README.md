@@ -12,7 +12,7 @@ An interactive virtual chemistry laboratory for educational purposes. This web a
 
 ## 🚀 Live Demo
 
-Visit the live application: [Chemistry Lab Simulator](https://username.github.io/chem-lab-simulator)
+Visit the live application: [Chemistry Lab Simulator](https://Piyush.github.io/chem-lab-simulator)
 
 ## 🛠️ Technologies Used
 
