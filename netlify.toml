@@ -1,6 +1,6 @@
 [build]
-  publish = "dist/public"
-  command = "npm run build:client"
+  publish = "docs"
+  command = "npm run build:pages"
 
 [[redirects]]
   from = "/*"
