@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/Piyush/chem-lab-simulator.git"
   },
-  "homepage": "https://Piyush.github.io/chem-lab-simulator",
+  "homepage": "https://www.chemLabSimulator.com",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
